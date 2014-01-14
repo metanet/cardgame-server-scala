@@ -272,7 +272,7 @@ class Game(_owner: Player, multiPlayer: Boolean) extends Actor with OnlineUsers 
 
         if (!bySystem) {
           leavingUser.oneMoreLeave
-          leavingUser.addSessionPoints(winnerPoints)
+          leavingUser.addSessionPoints(-winnerPoints)
         }
       }
 
