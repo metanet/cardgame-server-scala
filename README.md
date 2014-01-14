@@ -9,5 +9,14 @@ I have been learning Scala from some books such as Programming in Scala, Scala f
 
 Please note that this is not a production-ready code base, just a hobby project. 
 
+You can see how I applied actor-based programming to a turn-based game. Basic game-related objects like User, Game, Bot are actors. Other things like OnlineUsers, GameManager are also actors. 
+
+I think you can develop any turn-based game with actor-based programming very easily.
+
+Networking layer is built on top of Netty, nothing interesting. 
+
+Have fun.
+
+
 
 
